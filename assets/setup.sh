@@ -3,7 +3,7 @@
 # avoid dpkg frontend dialog / frontend warnings
 export DEBIAN_FRONTEND=noninteractive
 
-mv /asserts/startup.sh /usr/sbin/startup.sh &&
+mv /assets/startup.sh /usr/sbin/startup.sh &&
   chmod +x /usr/sbin/startup.sh
 
 mkdir -p /usr/local/java &&
