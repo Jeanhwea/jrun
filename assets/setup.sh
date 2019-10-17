@@ -8,7 +8,7 @@ mv /asserts/startup.sh /usr/sbin/startup.sh &&
 
 mkdir -p /usr/local/java &&
 cd /usr/local/java &&
-cat /assets/jdk-8u231-linux-x64.tar.gz.* | tar xzvf - &&
+cat /assets/jdk-8u231-linux-x64.tar.gz.* | tar xzf - &&
 
 
 echo 'export JAVA_HOME=/usr/local/java/jdk1.8.0_231' >> /etc/bash.bashrc &&
